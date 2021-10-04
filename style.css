@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#slider {
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(26,79,142,1) 100%);
+    width: 100%;
+}
+div#display {
+    height: 625px;
+}
+#display img {
+    height: 560px;
+    width: 428px;
+    margin: 0 26%;
+    position: relative;
+    background: #fff;
+    padding: 0 100px;
+}   
+span#left {
+    position: absolute;
+    left: 29%;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+span#right {
+    position: absolute;
+    left: 67%;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+p {
+    margin: 5px auto;
+    display: table;
+    background: rgb(31, 32, 31);
+    border: none;
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    bottom: 36px;
+    left: 48%;
+}
